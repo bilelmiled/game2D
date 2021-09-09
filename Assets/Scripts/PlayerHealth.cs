@@ -94,6 +94,7 @@ public class PlayerHealth : MonoBehaviour
             CurrentHealth += hp;
         }
         health.SetHealth(CurrentHealth);
+
     }
 
     public void die()

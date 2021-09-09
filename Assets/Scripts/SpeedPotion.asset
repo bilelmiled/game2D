@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fba150198f77bf243b781dd5490e9610, type: 3}
+  m_Name: SpeedPotion
+  m_EditorClassIdentifier: 
+  id: 2
+  nameItem: SpeedPotion
+  Description: 'increase speed '
+  image: {fileID: 21300000, guid: 7b480638470e2fe4d82a662b4516a2fe, type: 3}
+  hpAdd: 0
+  Price: 10
+  jumpAdd: 100
+  speedDuration: 10

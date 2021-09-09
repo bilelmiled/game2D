@@ -44,4 +44,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CoinCount: 0
+  consume: {fileID: 0}
+  next: {fileID: 0}
+  previous: {fileID: 0}
+  ItemImage: {fileID: 0}
+  invisible: {fileID: 21300000, guid: d9fa8e9d4b77c0842873261f08665b94, type: 3}
+  ItemDesc: {fileID: 0}
   Coinstext: {fileID: 0}
+  content: []

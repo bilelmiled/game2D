@@ -12,6 +12,9 @@ GameObject:
   - component: {fileID: 8950095496517882289}
   - component: {fileID: 8950095496517882288}
   - component: {fileID: 8950095496517882295}
+  - component: {fileID: 683270800}
+  - component: {fileID: 1143107976}
+  - component: {fileID: 1017648303}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -72,3 +75,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9db112be02bbd6a419d0359ef993b520, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &683270800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8950095496517882292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8452509a67d9cb47a8020e76cd59549, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  Namepnj: {fileID: 0}
+  dialogtext: {fileID: 0}
+--- !u!114 &1143107976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8950095496517882292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 138c0cfc17e4ed641a0227a0fd05ae8f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  animator: {fileID: 0}
+  Namepnj: {fileID: 0}
+  SellButtonPrefab: {fileID: 1126809598333564092, guid: ee43c6d94736cc14a9c3602b48cea240, type: 3}
+  SellButtonParent: {fileID: 0}
+--- !u!114 &1017648303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8950095496517882292}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e63550ee0d03b24194358ced36233a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  allItems:
+  - {fileID: 11400000, guid: 1d89236eed71c64478602b1a3388214d, type: 2}
+  - {fileID: 11400000, guid: ae603f6adb491f24caf848232204954c, type: 2}

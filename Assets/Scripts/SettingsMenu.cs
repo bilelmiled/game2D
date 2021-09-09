@@ -59,5 +59,10 @@ public class SettingsMenu : MonoBehaviour
         Resolution resolution = resolutions[resolutionindex];
         Screen.SetResolution(resolution.width, resolution.height , Screen.fullScreen);
     }
+
+    public void ClearData()
+    {
+        PlayerPrefs.DeleteAll();
+    }
    
 }

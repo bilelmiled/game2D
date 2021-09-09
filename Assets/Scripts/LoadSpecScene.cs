@@ -10,6 +10,7 @@ public class LoadSpecScene : MonoBehaviour
     {
         if(collision.CompareTag("Player"))
         {
+            PlayerMove.Instance.moveSpeed = 0;
             StartCoroutine(loadnextscene());
         }
     }
