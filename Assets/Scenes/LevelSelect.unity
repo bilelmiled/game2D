@@ -314,7 +314,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2320259805315592515, guid: 10339c5f81812fd44a351cecd2f7ea6e, type: 3}
       propertyPath: m_Text
-      value: LEVEL2
+      value: LEVEL3
       objectReference: {fileID: 0}
     - target: {fileID: 3073347668910586739, guid: 10339c5f81812fd44a351cecd2f7ea6e, type: 3}
       propertyPath: m_Pivot.x

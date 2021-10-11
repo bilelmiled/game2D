@@ -25,6 +25,6 @@ public class PlayerEffect : MonoBehaviour
     {
         yield return new WaitForSeconds(SpeedDuration);
         playerSprite.color = new Color(1f, 1f, 1f, 1f);
-        PlayerMove.Instance.moveSpeed -= SpeedGiven;
+        PlayerMove.Instance.jumpForce -= SpeedGiven;
     }
 }
